@@ -13,7 +13,7 @@ const Home = ({ searchParams }: SearchParamProps) => {
 
       <section className="remove-scrollbar container my-auto">
         <div className="sub-container max-w-[496px]">
-        <div className="flex items-center mb-12">
+          <div className="flex items-center mb-12">
             <Image
               src="/assets/icons/logos.svg"
               height={1000}
@@ -28,7 +28,7 @@ const Home = ({ searchParams }: SearchParamProps) => {
 
           <div className="text-14-regular mt-20 flex justify-between">
             <p className="justify-items-end text-dark-600 xl:text-left">
-              © 2024 UltraPluse
+              © 2024 UltraPlus
             </p>
             <Link href="/?admin=true" className="text-green-500">
               Admin
